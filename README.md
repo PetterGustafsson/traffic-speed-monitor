@@ -1,5 +1,5 @@
 # traffic-speed-monitor
-Measure, and publish to MQTT, speed of cars passing by with RaspberryPi and camera
+Measure speed of passing cars
 
 Program that detect and monitors the speed of cars passing by a one lane street. It published the results to an MQTT server which can then be subscribet to from external machine.
 
