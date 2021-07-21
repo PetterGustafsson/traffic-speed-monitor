@@ -1,10 +1,10 @@
 # traffic-speed-monitor
 Measure speed of passing cars
 
-System that detects and monitors the speed of vehicles passing by a one lane street. The cars are detected with a Haar Cascade classifier and the motion is tracked.
+System that detects and monitors the speed of vehicles passing by on a one lane street. The cars are detected with OpenCV and a Haar Cascade classifier The motion is tracked and results are recorded.
 
 This projects uses RasperryPi 3b with Camera module V.2
-It published the results to an MQTT server which can then be subscribet to from external machine.
+Results are published to an MQTT server, which can then be subscribed to from external machine.
 
 To get speed of vehicle, the user need to calibrate by getting pixels/length of a sample of passing cars.
 
